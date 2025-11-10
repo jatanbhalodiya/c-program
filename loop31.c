@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+    int num,i,j,flag;
+    int sum=0;
+    for (num=2;num<=500;num++){
+        flag=0;
+        for(i=2;i<=num/2;i++){
+            if(num%i==0){
+                flag=1;
+                break;
+            }
+        }
+        if(flag==0)
+        sum+=num;
+    }
+     printf("sum of all prime numbers between 1 andd 500=%d\n",sum);
+     return 0;
+}     
