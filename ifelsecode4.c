@@ -12,7 +12,7 @@ int main() {
         printf("a is not divisible by 7 ");
 
     }
-
+return 0;
 
 
 }
